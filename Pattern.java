@@ -9,6 +9,7 @@ class Pattern {
             }
             System.out.println();
         }
+
         // printing a upper triangle in lower to higher
         for (int i = 1; i < 6; i++) {
             for (int j = 0; j < i; j++) {
@@ -16,6 +17,5 @@ class Pattern {
             }
             System.out.println();
         }
-
     }
 }
