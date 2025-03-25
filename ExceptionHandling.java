@@ -12,8 +12,8 @@ public class ExceptionHandling {
             int c = a/b;
             System.out.println("Result: "+c);
         }
-        catch(Exception E){
-            System.out.println("Exception Occured: "+E.getMessage());
+        catch(ArithmeticException E){
+            System.out.println("Divide by Zero is not allowed" );
         }
         finally{
             System.out.println("The program is for dividing a number by zero");
