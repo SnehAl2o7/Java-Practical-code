@@ -14,10 +14,10 @@ public class Exceptionusingthrow {
             System.out.println("Result : " + (num/num2));
         }
         catch(MyException exe){
-            System.out.println(exe.getMessage());
+            System.out.println(exe);
         }
         catch(Exception e){
-            System.out.println("Exception caught : " + e.getMessage());
+            System.out.println("Exception caught : " + e);
         }
     }
 }
