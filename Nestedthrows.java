@@ -1,5 +1,5 @@
 import java.util.*;
-public class Exceptionthrows {
+public class Nestedthrows {
     public static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
         try{
