@@ -2,7 +2,7 @@ abstract class calculate{
     public void area(){};
 }
 
-class rectangle{
+class rectangle extends calculate{
     double length, breadth;
     rectangle(double l,double b){
         length=l;
@@ -13,7 +13,7 @@ class rectangle{
     }
 }
 
-class square{
+class square extends calculate{
     double side;
     square(double s){
         side = s;
@@ -24,7 +24,7 @@ class square{
     }
 }
 
-class triangle{
+class triangle extends calculate{
     double base, height;
     triangle(double b,double h){
         base=b;
@@ -35,7 +35,7 @@ class triangle{
     }
 }
 
-class circle{
+class circle extends calculate{
     double radius;
     circle(double r){
         radius = r;
