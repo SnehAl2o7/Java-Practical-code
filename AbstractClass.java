@@ -56,6 +56,5 @@ public class AbstractClass {
         s.area();
         t.area();
         c.area();
-        
     }
 }
