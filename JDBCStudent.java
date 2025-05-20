@@ -8,7 +8,8 @@ public class JDBCStudent {
 
     public static void main(String[] args) {
         try {
-            // Load the MySQL JDBC driver
+
+            // Register the MySQL JDBC driver
             Class.forName("com.mysql.cj.jdbc.Driver");
 
             // Establish connection
